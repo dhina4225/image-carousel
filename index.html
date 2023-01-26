@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Image Carousel</title>
+
+		<!-- css -->
+		<link rel="stylesheet" href="./assets/css/style.css" />
+	</head>
+	<body>
+		<main>
+			<div id="carousel" class="carousel">
+				<div id="item_1" class="hideLeft">
+					<img src="./assets/images/image 1.jpeg" />
+				</div>
+
+				<div id="item_2" class="prevLeftSecond">
+					<img src="assets/images/image 2.jpeg" />
+				</div>
+
+				<div id="item_3" class="prev">
+					<img src="assets/images/image 3.jpeg" />
+				</div>
+
+				<div id="item_4" class="selected">
+					<img src="assets/images/image 4.jpeg" />
+				</div>
+
+				<div id="item_5" class="next">
+					<img src="assets/images/image 5.jpeg" />
+				</div>
+
+				<div id="item_6" class="nextRightSecond">
+					<img src="assets/images/image 6.jpeg" />
+				</div>
+
+				<div id="item_7" class="hideRight">
+					<img src="assets/images/image 7.jpeg" />
+				</div>
+
+				<div id="item_8" class="hideRight">
+					<img src="assets/images/image 8.jpeg" />
+				</div>
+			</div>
+
+			<div class="buttons">
+				<button class="button-pushable" role="button" id="prev">
+					<span class="button-shadow"></span><span class="button-edge"></span
+					><span class="button-front text"> << </span>
+				</button>
+
+				<button class="button-pushable" role="button" id="next">
+					<span class="button-shadow"></span><span class="button-edge"></span
+					><span class="button-front text"> >> </span>
+				</button>
+			</div>
+		</main>
+
+		<!-- script -->
+		<script src="./assets/script/script.js"></script>
+	</body>
+</html>
